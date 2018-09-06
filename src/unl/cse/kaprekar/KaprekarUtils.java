@@ -34,7 +34,7 @@ public class KaprekarUtils {
 		int numDigits = (int) Math.log10(n) + 1;
 		long modulus = 1;
 		long first, second;
-		for(i=1; i<=numDigits; i++) {
+		for(i=1; i<=numDigits +2; i++) {
 			modulus *= 10;
 			first = square / modulus;
 			second = square % modulus;
